@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="git://github.com/" />
+
+  <remove-project name="platform/external/srec" />
+  <project name="CyanogenMod/android_external_srec" path="external/srec" remote="github" revision="ics"/>
+
+  <remove-project name="platform/dalvik" />
+  <project name="CyanogenMod/android_dalvik" path="dalvik" remote="github" revision="ics"/>
+
+  <remove-project name="platform/external/llvm" />
+  <project path="external/llvm" name="CyanogenMod/android_external_llvm" remote="github" revision="ics"/>
+
+  <remove-project name="platform/external/mesa3d" />
+  <project path="external/mesa3d" name="CyanogenMod/android_external_mesa3d" remote="github" revision="ics"/>
+
+  <remove-project name="platform/external/oprofile" />
+  <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="github" revision="ics"/>
+
+  <remove-project name="platform/external/gtest" />
+  <project path="external/gtest" name="CyanogenMod/android_external_gtest" remote="github" revision="ics"/>
+
+  <project name="CyanogenMod/android_device_lge_p990" path="device/lge/p990" remote="github" revision="ics"/>
+  <project name="CyanogenMod/android_device_lge_star-common" path="device/lge/star-common" remote="github" revision="ics"/>
+  <project name="CyanogenMod/lge-kernel-star" path="kernel/lge/star" remote="github" revision="android-tegra-2.6.32-ics"/>
+
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge.git" remote="github" revision="ics"/>
+
+</manifest>
