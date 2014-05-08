@@ -24,6 +24,9 @@
   <remove-project name="platform/external/gtest" />
   <project path="external/gtest" name="CyanogenMod/android_external_gtest" remote="github" revision="ics"/>
 
+  <remove-project name="platform/external/webkit" />
+  <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="ics"/>
+
   <project name="CyanogenMod/android_device_lge_p990" path="device/lge/p990" remote="github" revision="ics"/>
   <project name="CyanogenMod/android_device_lge_star-common" path="device/lge/star-common" remote="github" revision="ics"/>
   <project name="CyanogenMod/lge-kernel-star" path="kernel/lge/star" remote="github" revision="android-tegra-2.6.32-ics"/>
