@@ -3,6 +3,9 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
+  <remove-project name="build" />
+  <project name="p990-aosp/platform_build" path="build" remote="github" revision="ics"/>
+
   <remove-project name="platform/external/srec" />
   <project name="CyanogenMod/android_external_srec" path="external/srec" remote="github" revision="ics"/>
 
