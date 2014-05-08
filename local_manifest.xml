@@ -3,7 +3,7 @@
   <remote  name="github"
            fetch="git://github.com/" />
 
-  <remove-project name="build" />
+  <remove-project name="platform/build" />
   <project name="p990-aosp/platform_build" path="build" remote="github" revision="ics"/>
 
   <remove-project name="platform/external/srec" />
