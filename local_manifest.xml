@@ -27,9 +27,18 @@
   <remove-project name="platform/external/webkit" />
   <project path="external/webkit" name="CyanogenMod/android_external_webkit" remote="github" revision="ics"/>
 
-  <project name="CyanogenMod/android_device_lge_p990" path="device/lge/p990" remote="github" revision="ics"/>
-  <project name="CyanogenMod/android_device_lge_star-common" path="device/lge/star-common" remote="github" revision="ics"/>
-  <project name="CyanogenMod/lge-kernel-star" path="kernel/lge/star" remote="github" revision="android-tegra-2.6.32-ics"/>
+  <remove-project name="platform/frameworks/base" />
+  <project path="frameworks/base" name="p990-aosp/android_frameworks_base" remote="github" revision="ics"/>
+
+  <remove-project name="platform/system/extras" />
+  <project path="system/extras" name="p990-aosp/platform_system_extras" remote="github" revision="ics"/>
+
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
+  <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
+
+  <project path="device/lge/p990" name="p990-aosp/android_device_lge_p990" remote="github" revision="ics"/>
+  <project path="device/lge/star-common" name="p990-aosp/android_device_lge_star-common" remote="github" revision="ics"/>
+  <project path="kernel/lge/star" name="CyanogenMod/lge-kernel-star" remote="github" revision="android-tegra-2.6.32-ics"/>
 
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge.git" remote="github" revision="ics"/>
 
